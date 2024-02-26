@@ -38,13 +38,13 @@ output = text_generation_pipeline(
 This configuration was chosen to balance between generating coherent, relevant responses and allowing for creative, diverse outputs. It controls the length of the response, the inclusion of special tokens, sampling behavior, and the randomness of the output.
 
 ## Findings
-Our findings revealed mixed results across the different categories. While the model performed well in certain areas, it struggled with basic tasks in others, such as simple arithmetic operations. These results highlight the areas where the model excels and where it needs improvement.
+Findings revealed mixed results across the different categories. While the model performed well in certain areas, it struggled with basic tasks in others, such as simple arithmetic operations. These results highlight the areas where the model excels and where it needs improvement.
 
 ## Running the Tests
-To replicate our tests, please don't forget to set your own Hugging Face API key in the provided Colab notebook. I encourage users to adapt the tests to their specific domains of interest. However, it's important to remember that these results should not be seen as definitive benchmarks for all use cases, especially since performance can vary based on hardware configurations. My tests were conducted on an NVIDIA A100 GPU.
+To replicate these tests, please don't forget to set your own Hugging Face API key in the provided Colab notebook. I encourage users to adapt the tests to their specific domains of interest. However, it's important to remember that these results should not be seen as definitive benchmarks for all use cases, especially since performance can vary based on hardware configurations. My tests were conducted on an NVIDIA A100 GPU.
 
 ## Contributions
-Welcome contributions from the community. Whether it's extending the test suite with more domain-specific questions, improving the testing framework, or sharing your evaluation results, your input can help enhance understanding and utilization of this model.
+Welcome contributions from the community. Whether it's extending the test suite with more domain-specific questions, improving the testing framework, or sharing your evaluation results, your input can help enhance understanding and utilization of this model  for the entire community.
 
 ## License
 This project is open-source and available under the MIT License.
